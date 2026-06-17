@@ -45,7 +45,7 @@ function Navbar() {
                 </Link>
                 <button
                   onClick={handleLogout}
-                  className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-md text-sm font-medium transition-colors"
+                  className="bg-blue-200 hover:bg-red-600 px-4 py-2 rounded-md text-sm font-medium transition-colors"
                 >
                   Logout
                 </button>
