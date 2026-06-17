@@ -5,7 +5,6 @@ import { useState } from "react";
 let userschema = z.string().min(3, "username must need 6 characters minimum").max(16, "max length should be 16 chacaters")
 let passchema = z.string().min(6, " must need 6 characters minimum").max(16, "max length should be 16 chacaters")
 
-
 //helper function
 function validate(schema, value) {
   if (!value)
